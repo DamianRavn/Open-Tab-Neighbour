@@ -1,3 +1,5 @@
+Link to [extension] (https://addons.mozilla.org/en-US/firefox/addon/open-tab-neighbour/)
+
 # Open-Tab-Neighbour
 A firefox extension for opening tabs next to current active tab
 
