@@ -1,13 +1,22 @@
 {
   "manifest_version": 3,
   "name": "Open Tab Neighbour",
-  "version": "1.0",
+  "version": "1.1",
 
   "permissions": ["tabs"],
 
   "background": {
     "scripts": ["background.js"]
   },
+
+  "browser_specific_settings": 
+  {
+    "gecko": 
+    {
+      "id": "{365a2b99-cfed-413b-8054-6bb5e4d749f5}"
+    }
+  },
+  
 
   "commands": 
   {
@@ -26,6 +35,14 @@
         "default": "Ctrl+Alt+Space"
       },
       "description": "Duplicates current tab and opens it next to this one"
+    },
+    "open_yt_sub":
+    {
+      "suggested_key": 
+      {
+        "default": "Ctrl+Shift+Space"
+      },
+      "description": "Open a new Youtube Subscription tab next to the current one"
     }
   }
 }
